@@ -16,12 +16,12 @@ st.markdown(
 
 # --- Parameters for the dipole ---
 a = st.slider("Half separation  a  (distance from origin)", 0.2, 3.0, 1.0, 0.1)
-q = st.slider("Charge magnitude  q  (dimensionless)", 0.5, 3.0, 1.0, 0.1)
+q = st.slider("- Charge / + Charge  (dimensionless)", 0.5, 3.0, 1.0, 0.1)
 
 # Positions of the charges
 x1, y1 = -a, 0.0  # +q
 x2, y2 = +a, 0.0  # -q
-q1 = +q
+q1 = +1
 q2 = -q
 
 # --- Create a grid for the field ---
