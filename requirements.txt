@@ -3,3 +3,4 @@ plotly
 numpy
 matplotlib
 streamlit_plotly_events
+streamlit_drawable_canvas
